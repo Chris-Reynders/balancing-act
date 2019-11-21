@@ -1,0 +1,18 @@
+/* elements */
+
+h5 {
+  text-transform: uppercase;
+}
+
+img.focus-custom-icon {
+  width:fit
+}
+
+
+
+
+/* specific id's */
+
+#banner-idea-1 {
+  background-color:skyblue;
+}
