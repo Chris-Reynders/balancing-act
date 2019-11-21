@@ -1,5 +1,7 @@
 /* elements */
-
+main {
+  font: biryani;
+}
 h5 {
   text-transform: uppercase;
 }
@@ -10,9 +12,42 @@ img.focus-custom-icon {
 
 
 
+/* classes */
+
+.focus-custom-icon {
+width: 85px;
+height: 105px;
+}
+
+.reg-custom-icon {
+  width: 55px;
+  height: 85px;
+}
+
+.sml-custom-icon {
+  width: 45px;
+  height: 75px;
+}
+
+.feature-tile {
+  height: 200px;
+  width: 300px;
+  background-color: rebeccapurple;
+}
+
 
 /* specific id's */
 
+#vertical-navbar {
+  width: 5em;
+  display: inline-block;
+}
+
 #banner-idea-1 {
-  background-color:skyblue;
+  background-color: skyblue;
+  /* animation: disappearSomehow onclick */
+}
+
+#recent-transactions-table {
+  background-color: green;
 }
