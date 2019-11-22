@@ -1,7 +1,10 @@
 /* elements */
+
 main {
-  font: biryani;
+  font-family: biryani;
+  display:inline-block;
 }
+
 h5 {
   text-transform: uppercase;
 }
@@ -35,12 +38,23 @@ height: 105px;
   background-color: rebeccapurple;
 }
 
+.account-tile {
+  display: inline-block;
+}
+
+.custom-blue-button {
+  height: 30px;
+  width: 150px;
+  background-color: pink;
+}
 
 /* specific id's */
 
 #vertical-navbar {
   width: 5em;
   display: inline-block;
+  overflow: auto;
+  vertical-align: middle;
 }
 
 #banner-idea-1 {
@@ -50,4 +64,6 @@ height: 105px;
 
 #recent-transactions-table {
   background-color: green;
+  float: right;
+  display: inline-block;
 }
