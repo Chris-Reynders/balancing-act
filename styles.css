@@ -1,7 +1,8 @@
 /* elements */
 
 main {
-  font-family: biryani;
+  font-family: 'Biryani';
+  font-color: #363636;
   display:inline-block;
 }
 
