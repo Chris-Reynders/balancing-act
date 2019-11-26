@@ -1,9 +1,37 @@
+
+
+
+
 /* elements */
 
-main {
+body {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  background-color: #F5F5F5;
   font-family: 'Biryani';
-  font-color: #363636;
+  color: #363636;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  font: rebeccapurple;
+  font-style: oblique<9deg>;
+}
+
+
+main {
   display:inline-block;
+  width: 300px;
+  overflow: auto;
+}
+
+h1 {
+  margin: auto;
+  padding: auto;
 }
 
 h5 {
@@ -11,7 +39,7 @@ h5 {
 }
 
 img.focus-custom-icon {
-  width:fit
+
 }
 
 
@@ -34,12 +62,18 @@ height: 105px;
 }
 
 .feature-tile {
-  height: 200px;
-  width: 300px;
+  height: 50px;
+  width: 100px;
+  margin: 10px;
   background-color: rebeccapurple;
+  display:inline-block;
+  border-radius: 3px;
 }
 
 .account-tile {
+  height: 25px;
+  width: 125px;
+  border-radius: 3px;
   display: inline-block;
 }
 
@@ -47,19 +81,23 @@ height: 105px;
   height: 30px;
   width: 150px;
   background-color: pink;
+  border-radius: 15px;
 }
 
 /* specific id's */
 
 #vertical-navbar {
-  width: 5em;
+  width: 15em;
   display: inline-block;
   overflow: auto;
+  background-color: grey;
   vertical-align: middle;
 }
 
 #banner-idea-1 {
   background-color: skyblue;
+  display: block;
+  width: 250px;
   /* animation: disappearSomehow onclick */
 }
 
