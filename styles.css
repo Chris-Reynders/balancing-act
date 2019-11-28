@@ -8,12 +8,22 @@ body {
   font-size: 62.5%;
   margin: 0;
   padding: 0;
-  background-color: #F5F5F5;
-  background-image: url('/assets/laptop-comp.png');
+  background-image: linear-gradient(to right, #cccccc, #F5F5F5);
+
+  /* background-image: url('/assets/laptop-comp.png'); */
   font-family: 'Biryani';
+  font-weight: 400;
   color: #363636;
+  display: inline-block;
 }
 
+aside {
+  /* float: right; */
+  width: 50em;
+  /* height: 100vw; */
+  background-color: #dedede;
+  display: inline-block;
+}
 a:link, a:visited {
   text-decoration: none;
 }
@@ -25,9 +35,15 @@ a:hover {
 
 
 main {
-  display:inline-block;
-  width: 300px;
-  overflow: auto;
+  width: 100em;
+}
+
+body {
+
+}
+
+aside {
+  float: right;
 }
 
 h1 {
@@ -39,42 +55,59 @@ h5 {
   text-transform: uppercase;
 }
 
-img.focus-custom-icon {
-
-}
-
-
 
 /* classes */
 
 .focus-custom-icon {
-width: 85px;
-height: 105px;
+width: 9.2em;
+height: 17.3em;
+margin-top: -4em;
+padding: 0;
+margin-left: -1em;
+transform: translate(1.3em, 2em);
+}
+
+.focus-custom-icon:hover {
+  border-image: : linear-gradient(rebeccapurple, white);
+  border-image-slice: 23;
+  border-width: 1em;
+  border-style: solid;
+  transition: 1s;
+  box-sizing: border-box;
 }
 
 .reg-custom-icon {
-  width: 55px;
-  height: 85px;
+  background-color: pink;
+  width: 5.5em;
+  height: 8.5em;
+  display: block;
+  transition: .5s;
+}
+
+.reg-custom-icon:hover {
+  border-left-width: .8em;
+  border-left-color: teal;
+  border-left-style: solid;
 }
 
 .sml-custom-icon {
-  width: 45px;
-  height: 75px;
+  width: 4.5em;
+  height: 7.5em;
 }
 
 .feature-tile {
-  height: 50px;
-  width: 100px;
-  margin: 10px;
+  height: 5em;
+  width: 10em;
+  margin: 1em;
   background-color: rebeccapurple;
   display:inline-block;
-  border-radius: 3px;
+  border-radius: .3em;
 }
 
 .account-tile {
-  height: 25px;
-  width: 125px;
-  border-radius: 3px;
+  height: 2.5em;
+  width: 12.5em;
+  border-radius: .3em;
   display: inline-block;
 }
 
@@ -85,28 +118,36 @@ height: 105px;
   border-radius: 1.5em;
 }
 
+.account-tile,
+.feature-tile,
+#banner-idea-1,
+#recent-transactions-table {
+  box-shadow: .1em .3em .69em .1em rgba(0,0,0,20%)
+}
+
 /* specific id's */
 
 
 
 #vertical-navbar {
-  width: 15em;
-  display: inline-block;
-  overflow: auto;
-  background-color: grey;
+  width: 10.4em;
+  height: 100vw;
+  background-color: #ffffff;
+  float: left;
   opacity: 25%;
-  vertical-align: middle;
 }
 
 #banner-idea-1 {
-  background-color: skyblue;
+  background-image: linear-gradient(to right, #8ED1DC, #E3F4F6);
   display: block;
-  width: 250px;
+  width: 55em;
+  height: 5em;
   /* animation: disappearSomehow onclick */
 }
 
 #recent-transactions-table {
-  background-color: blue;
+  background-color: gray;
   float: right;
   display: inline-block;
+
 }
