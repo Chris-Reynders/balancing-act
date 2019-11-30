@@ -8,7 +8,7 @@
   </head>
 <body class="body-content-container">
   <main class="main-page-area">
-    <div id="vertical-navbar">
+    <div class="main-section" id="vertical-navbar">
       <nav>
         <!-- <a href="http://www. link to the company website"> -->
         <img src="assets/elephant.svg" title="Company Logo" alt="The company logo is a cartoon elephant on a ball." class="focus-custom-icon" />
@@ -24,47 +24,52 @@
         <!-- </a> -->
       </nav>
     </div>
-    <h1>Balancing Act</h1>
-      <button id="banner-idea-1">
+    <div class="main-section" id="main-section-1">
+      <h1>Balancing Act</h1>
+      <div id="banner-idea-1">
         <h4>Welcome, Oscar!</h4>
-      </button>
-        <section class="feature-tile">
-          <p>Income</p>
-            <p>$2,119.12</p>
-        </section>
-        <section class="feature-tile">
-          <p>Expenses</p>
-            <p>$420.54</p>
-        </section>
-        <section class="feature-tile">
-          <p>Credit Score</p>
-            <p>673</p>
-        </section>
-        <h2>Accounts</h2>
-          <button class="button custom-blue-button">Manage Accounts</button>
-        <div class="account-tile">
-          <img src="./assets/checking.svg" title="Checking Account Icon" alt="Checking Account" class="sml-custom-icon" />
-            <h3>Wells Fargo</h3>
-            <h3>Checking</h3>
-        </div>
-        <div class="account-tile">
-          <img src="./assets/savings.svg" title="Savings Account Icon" alt="Savings Account" class="sml-custom-icon" />
-            <h3>Wells Fargo</h3>
-            <h3>Savings</h3>
-        </div>
-        <div class="account-tile">
-          <img src="./assets/credit-card.svg" title="Credit Account Icon" alt="Credit Account" class="sml-custom-icon" />
-            <h3>Amazon Credit</h3>
-            <h3>Credit Card</h3>
-        </div>
-        <div class="account-tile">
-          <img src="./assets/credit-card.svg" title="Credit Account Icon" alt="Credit Account" class="sml-custom-icon" />
-            <h3>Southwest Credit</h3>
-            <h3>Credit Card</h3>
-        </div>
-    </main>
-    <aside>
-  <!-- Need to convert this table to CSS, replace table (th, tr etc) elements with classes (div class="cr") -->
+        <button class="banner-closer">
+          X
+        </button>
+      </div>
+      <section class="feature-tile">
+        <h5>Income</h5>
+          <p>$2,119.12</p>
+      </section>
+      <section class="feature-tile">
+        <h5>Expenses</h5>
+          <p>$420.54</p>
+      </section>
+      <section class="feature-tile">
+        <h5>Credit Score</h5>
+          <p>673</p>
+      </section>
+      <h2>Accounts</h2>
+        <button class="button custom-blue-button"><h4>Manage Accounts</h4></button>
+      <div class="account-tile">
+        <img src="./assets/checking.svg" title="Checking Account Icon" alt="Checking Account" class="sml-custom-icon" />
+          <h3>Wells Fargo</h3>
+          <h3>Checking</h3>
+      </div>
+      <div class="account-tile">
+        <img src="./assets/savings.svg" title="Savings Account Icon" alt="Savings Account" class="sml-custom-icon" />
+          <h3>Wells Fargo</h3>
+          <h3>Savings</h3>
+      </div>
+      <div class="account-tile">
+        <img src="./assets/credit-card.svg" title="Credit Account Icon" alt="Credit Account" class="sml-custom-icon" />
+          <h3>Amazon Credit</h3>
+          <h3>Credit Card</h3>
+      </div>
+      <div class="account-tile">
+        <img src="./assets/credit-card.svg" title="Credit Account Icon" alt="Credit Account" class="sml-custom-icon" />
+          <h3>Southwest Credit</h3>
+          <h3>Credit Card</h3>
+      </div>
+    </div>
+  <div class="main-section" id="main-section-2">
+
+                <!-- Need to convert this table to CSS, replace table (th, tr etc) elements with classes (div class="cr") -->
       <table id="recent-transactions-table">
         <thead>
           <tr>
@@ -134,7 +139,8 @@
           </tr>
         </tbody>
       </table>
-    </aside>
+    </div>
+  </body>
   <footer>
     <!-- In case I need a footer at some point -->
   </footer>
