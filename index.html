@@ -2,78 +2,72 @@
 <html>
 <html lang="en-US" />
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chris R's Balancing Act</title>
     <link href="styles.css" type="text/css" rel="stylesheet" />
     <link href="assets/favicon.ico" rel="shortcut icon" type="image/x-icon" />
   </head>
-<body class="body-content-container">
-  <main class="main-page-area">
-    <div class="main-section" id="vertical-navbar">
-      <nav>
-        <!-- <a href="http://www. link to the company website"> -->
-        <img src="assets/elephant.svg" title="Company Logo" alt="The company logo is a cartoon elephant on a ball." class="focus-custom-icon" />
-        <!-- </a> -->
-        <!-- <a href="http://www. link to user dashboard"> -->
-        <img src="assets/dashboard.svg" title="Dashboard" alt="The dashboard image should display here." class="reg-custom-icon" />
-        <!-- </a> -->
-        <!-- <a href="http://www. link to the transactions page"> -->
-        <img src="assets/transactions.svg" title="Transactions" alt="The transactions image should display here." class="reg-custom-icon" />
-        <!-- </a> -->
-        <!-- <a href="http://www. link to profile"> -->
-        <img src="assets/profile.svg" title="Profile" alt="The profile image should display here." class="reg-custom-icon" />
-        <!-- </a> -->
+  <body class="x-body-content-container">
+    <main class="x-main-page-area">
+      <nav class="x-main-section" id="vertical-navbar">
+          <img src="assets/elephant.svg" title="Company Logo" alt="The company logo is a cartoon elephant on a ball." class="x-focus-custom-icon" />
+        <div id="y-icon-holder">
+          <img src="assets/dashboard.svg" title="Dashboard" alt="The dashboard image should display here." class="x-reg-custom-icon" />
+          <img src="assets/transactions.svg" title="Transactions" alt="The transactions image should display here." class="x-reg-custom-icon" />
+          <img src="assets/profile.svg" title="Profile" alt="The profile image should display here." class="x-reg-custom-icon" />
+        </div>
       </nav>
-    </div>
-    <div class="main-section" id="main-section-1">
-      <h1>Balancing Act</h1>
-      <div id="banner-idea-1">
-        <h4>Welcome, Oscar!</h4>
-        <button class="banner-closer">
-          X
-        </button>
+      <div class="x-main-section" id="main-section-1">
+        <h1>Balancing Act</h1>
+        <div id="banner-idea-1">
+          <h4>Welcome, Oscar!</h4>
+          <button class="x-banner-closer">
+            X
+          </button>
+        </div>
+        <section class="x-feature-tile">
+          <h5>Income</h5>
+            <p>$2,119.12</p>
+        </section>
+        <section class="x-feature-tile">
+          <h5>Expenses</h5>
+            <p>$420.54</p>
+        </section>
+        <section class="x-feature-tile">
+          <h5>Credit Score</h5>
+            <p>673</p>
+        </section>
+        <h2>Accounts</h2>
+          <button class="x-button custom-blue-button"><h4>Manage Accounts</h4></button>
+        <div class="x-account-tile">
+          <img src="./assets/checking.svg" title="Checking Account Icon" alt="Checking Account" class="x-sml-custom-icon" />
+            <h3>Wells Fargo</h3>
+            <h3>Checking</h3>
+        </div>
+        <div class="x-account-tile">
+          <img src="./assets/savings.svg" title="Savings Account Icon" alt="Savings Account" class="x-sml-custom-icon" />
+            <h3>Wells Fargo</h3>
+            <h3>Savings</h3>
+        </div>
+        <div class="x-account-tile">
+          <img src="./assets/credit-card.svg" title="Credit Account Icon" alt="Credit Account" class="x-sml-custom-icon" />
+            <h3>Amazon Credit</h3>
+            <h3>Credit Card</h3>
+        </div>
+        <div class="x-account-tile">
+          <img src="./assets/credit-card.svg" title="Credit Account Icon" alt="Credit Account" class="x-sml-custom-icon" />
+            <h3>Southwest Credit</h3>
+            <h3>Credit Card</h3>
+        </div>
       </div>
-      <section class="feature-tile">
-        <h5>Income</h5>
-          <p>$2,119.12</p>
-      </section>
-      <section class="feature-tile">
-        <h5>Expenses</h5>
-          <p>$420.54</p>
-      </section>
-      <section class="feature-tile">
-        <h5>Credit Score</h5>
-          <p>673</p>
-      </section>
-      <h2>Accounts</h2>
-        <button class="button custom-blue-button"><h4>Manage Accounts</h4></button>
-      <div class="account-tile">
-        <img src="./assets/checking.svg" title="Checking Account Icon" alt="Checking Account" class="sml-custom-icon" />
-          <h3>Wells Fargo</h3>
-          <h3>Checking</h3>
       </div>
-      <div class="account-tile">
-        <img src="./assets/savings.svg" title="Savings Account Icon" alt="Savings Account" class="sml-custom-icon" />
-          <h3>Wells Fargo</h3>
-          <h3>Savings</h3>
-      </div>
-      <div class="account-tile">
-        <img src="./assets/credit-card.svg" title="Credit Account Icon" alt="Credit Account" class="sml-custom-icon" />
-          <h3>Amazon Credit</h3>
-          <h3>Credit Card</h3>
-      </div>
-      <div class="account-tile">
-        <img src="./assets/credit-card.svg" title="Credit Account Icon" alt="Credit Account" class="sml-custom-icon" />
-          <h3>Southwest Credit</h3>
-          <h3>Credit Card</h3>
-      </div>
-    </div>
-  <div class="main-section" id="main-section-2">
-
-                <!-- Need to convert this table to CSS, replace table (th, tr etc) elements with classes (div class="cr") -->
-      <table id="recent-transactions-table">
+    <div class="x-main-section" id="main-section-2">
+<!-- Need to convert this table to CSS, replace table (th, tr etc) elements with classes (div class="x-cr") -->
+      <!-- <table id="recent-transactions-table">
         <thead>
           <tr>
-            <th colspan="4">Recent Transactions</th><button class="button custom-blue-button">New Transaction</button>
+            <th colspan="4">Recent Transactions</th><button class="x-button custom-blue-button">New Transaction</button>
           </tr>
         </thead>
         <tbody>
@@ -138,12 +132,14 @@
             <td>$6.00</td>
           </tr>
         </tbody>
-      </table>
+      </table> -->
     </div>
   </body>
   <footer>
     <!-- In case I need a footer at some point -->
   </footer>
+    </main>
+  </body>
   <script src="main.js">
   </script>
 </html>

@@ -1,15 +1,15 @@
 
 
-
-
 /* elements */
-
+html {
+  height: 100%;
+}
 body {
   font-size: 62.5%;
+  height: 100%;
   margin: 0;
   padding: 0;
   background-image: linear-gradient(to right, #cccccc, #F5F5F5);
-
   /* background-image: url('/assets/laptop-comp.png'); */
   font-family: 'Biryani';
   font-weight: 400;
@@ -27,13 +27,12 @@ a:hover {
   font-style: oblique<9deg>;
 }
 
-
 main {
   width: 100em;
 }
 
 body {
-font-family: Biryani, sans-serif;
+font-family: , sans-serif;
 }
 
 aside {
@@ -61,66 +60,64 @@ p {
 
 /* classes */
 
-.focus-custom-icon {
+.x-focus-custom-icon {
 width: 9.2em;
-height: 17.3em;
-margin-top: -4em;
+margin-top: 0;
 padding: 0;
 margin-left: -1em;
 transform: translate(1.3em, 2em);
 transition: 1s;
 }
 
-.focus-custom-icon:hover {
-/* was going to try to create a glow effect on hover
-  border-image: : linear-gradient(rebeccapurple, white);
-  border-image-slice: 23; */
+.x-focus-custom-icon:hover {
   border-style: solid;
-  border-width: 1em;
-  border-style: linear-gradient(to right, #123abc, #abc123);
+  border-width: 2em;
+  /* border-image: radial-gradient(rgba(66,0,124,0),#42007c); */
   box-sizing: border-box;
   background-color: rebeccapurple;
 
 }
 
-.main-section {
+.x-main-page-area {
+ height:100%;
+ display: inline-block;
+}
+
+.x-main-section {
   width: 50em;
   height: 100%;
   background-color: #dedede;
   display: inline-block;
 }
 
-.reg-custom-icon {
+.x-reg-custom-icon {
   background-color: inherit;
   width: 5.5em;
-  height: 8.5em;
+  padding: 2em .3em;;
   display: block;
   transition: .5s;
   float: left;
 }
 
-.reg-custom-icon:hover {
+.x-reg-custom-icon:hover {
   border-left-width: .8em;
-  border-left-color: teal;
+  border-left-color: #1BA3BA;
   border-left-style: solid;
 }
 
-.sml-custom-icon {
+.x-sml-custom-icon {
   width: 4.5em;
-  height: 7.5em;
 }
 
-.feature-tile {
-  height: 8em;
+.x-feature-tile {
   width: 15em;
   margin: 1em;
   background-color: #f5f5f5;
-  display:inline-block;
+  display: inline-block;
   border-radius: .3em;
 }
 
-.account-tile {
-  height: 5.5em;
+.x-account-tile {
   width: 12.5em;
   margin: 1em;
   padding: 1em;
@@ -128,17 +125,24 @@ transition: 1s;
   display: block;
 }
 
-.custom-blue-button {
-  height: 3em;
+.x-custom-blue-button {
   width: 15em;
+  padding-bottom: 3.5em;
   background-color: #1BA3BA;
   color: white;
   vertical-align: center;
   border-radius: 1.5em;
 }
 
-.account-tile,
-.feature-tile,
+#y-icon-holder {
+  width: 9.2em;
+  height: 100%;
+  padding-left: 2em;
+  margin-top: 15em;
+}
+
+.x-account-tile,
+.x-feature-tile,
 #banner-idea-1,
 #recent-transactions-table {
   box-shadow: .1em .3em .69em .1em rgba(0,0,0,5%);
@@ -147,14 +151,11 @@ transition: 1s;
 
 /* specific id's */
 
-
-
 #vertical-navbar {
   width: 10em;
   height: 100%;
   background-color: #ffffff;
-  float: left;
-  opacity: 25%;
+  opacity: 50%;
 }
 
 #banner-idea-1 {
